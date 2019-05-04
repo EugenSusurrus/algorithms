@@ -25,4 +25,4 @@ from timeit import default_timer as time
 start = time()
 print(f"The number {elem_to_search} is contained in the list : {linear_search(large_sorted_list, elem_to_search)}")
 end = time()
-print(f"Recursive version of the binary search took {end - start} to find")
+print(f"Linear search took {end - start} to find the element")
